@@ -481,9 +481,8 @@ Exercise 12
 
     ¬(¬P ∨ Q) ∨ (P ∧ ¬R)
     => (P ∧ ¬Q) ∨ (P ∧ ¬R) [Demorgan's law]
-
-Can't reduce more than this. Let me know if it's more reducible than
-this.
+    => P ∧ (¬Q ∨ ¬R) [Distributive law]
+    => P ∧ ¬(Q ∧ R) [DeMorgan's law]
 
 (b)
 
